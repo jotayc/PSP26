@@ -1,0 +1,25 @@
+# Maven
+target/
+
+# NetBeans
+nbproject/private/
+nbactions.xml
+.nb-gradle/
+
+# Ficheros que generan los propios ejercicios al ejecutarse
+parcial_*.txt
+error_*.txt
+errores*.txt
+resultado.txt
+salida.txt
+comun.txt
+vocal_*.txt
+trozo_*.txt
+mal.txt
+
+# Fichero de pruebas del ejercicio 7.3: se genera con GeneraTexto
+UD1/Ejercicio1.7.3-MedirTiempos/texto.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
