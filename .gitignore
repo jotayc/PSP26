@@ -1,10 +1,26 @@
-# Maven
+# Lo que se compila: cada uno lo genera en su equipo al pulsar Run
 target/
+*.class
+*.jar
 
-# NetBeans
-nbproject/private/
+# NetBeans. nbactions.xml es importante que quede fuera: guarda la ruta
+# absoluta del JDK de quien lo genera, y esa ruta no vale en otro ordenador.
 nbactions.xml
+nbproject/
+.netbeans_automatic_build
 .nb-gradle/
+
+# Otros editores, por si alguien abre los proyectos con ellos
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Informes de caída de la máquina virtual
+hs_err_pid*.log
+replay_pid*.log
 
 # Ficheros que generan los propios ejercicios al ejecutarse
 parcial_*.txt
@@ -13,6 +29,7 @@ errores*.txt
 resultado.txt
 salida.txt
 comun.txt
+notas.txt
 vocal_*.txt
 trozo_*.txt
 mal.txt

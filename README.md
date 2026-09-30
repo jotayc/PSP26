@@ -7,6 +7,18 @@ NetBeans.
 Los ejercicios se van publicando aquí a medida que avanzamos: si no ves el de
 un apartado, es que todavía no toca.
 
+## Qué necesitas
+
+NetBeans con un **JDK 17 o posterior**; en clase usamos el **21**. Los ejercicios
+se compilan para Java 17, así que funcionan igual con el 17 y con el 21.
+
+Si al ejecutar te sale `UnsupportedClassVersionError`, o Maven se queja de
+`release 17`, es que NetBeans está usando un JDK más antiguo. Compruébalo en
+*Ayuda → Acerca de* y cámbialo en *Herramientas → Plataformas de Java*.
+
+No hace falta instalar nada más: Maven viene con NetBeans y la carpeta `target/`
+la genera tu equipo al compilar, por eso no está en el repositorio.
+
 ## Cómo descargarlo
 
 La primera vez, en la carpeta donde quieras tenerlo:
