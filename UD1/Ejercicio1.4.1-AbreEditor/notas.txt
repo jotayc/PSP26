@@ -1,0 +1,2 @@
+Este fichero lo abre el programa AbreEditor.
+Escribe aqui lo que quieras.
