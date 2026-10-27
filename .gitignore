@@ -33,6 +33,8 @@ notas.txt
 vocal_*.txt
 trozo_*.txt
 mal.txt
+compartido.txt
+doc/
 
 # Fichero de pruebas del ejercicio 7.3: se genera con GeneraTexto
 UD1/Ejercicio1.7.3-MedirTiempos/texto.txt
